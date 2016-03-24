@@ -1411,7 +1411,7 @@ public class SettingsService {
     }
 
     private void validateLicense() {
-        String email = getLicenseEmail();
+        /*String email = getLicenseEmail();
         Date date = getLicenseDate();
 
         if (email == null || date == null) {
@@ -1440,7 +1440,7 @@ public class SettingsService {
             LOG.warn("Failed to validate license.", x);
         } finally {
             client.getConnectionManager().shutdown();
-        }
+        }*/
     }
 
     public synchronized void scheduleLicenseValidation() {
